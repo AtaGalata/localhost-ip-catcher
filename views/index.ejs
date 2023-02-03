@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Your IP Has Been Catched...</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <a>IP Adresin;</a>
+            <% if (!IP) { %>
+                <h4>localhost</h4>
+            <%} else { %>
+                <h4><%-IP%></h4>
+            <% } %>
+        </div>
+    </div>
+</body>
+</html>

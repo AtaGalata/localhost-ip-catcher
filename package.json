@@ -1,0 +1,13 @@
+{
+  "name": "localhost-ip-catcher",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "AtaGalata",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "wio.db": "^4.0.20"
+  }
+}
